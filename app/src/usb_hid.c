@@ -26,6 +26,9 @@ static void in_ready_cb(const struct device *dev) { k_sem_give(&hid_sem); }
 #define HID_GET_REPORT_TYPE_MASK 0xff00
 #define HID_GET_REPORT_ID_MASK 0x00ff
 
+#define HID_REPORT_ID_KEYBOARD 1
+#define HID_REPORT_ID_CONSUMER 2
+
 #define HID_REPORT_TYPE_INPUT 0x100
 #define HID_REPORT_TYPE_OUTPUT 0x200
 #define HID_REPORT_TYPE_FEATURE 0x300
