@@ -81,6 +81,7 @@ jobs:
             --arg revision "$REVISION_TAG" \
             --arg branch   "$GITHUB_REF" \
             --arg digest   "$digest" \
+            --arg api_version "2" \
             > "/tmp/$CONTAINER_NAME.json"
       - name: Upload image metadata file to versions bucket
         run: aws s3 cp "/tmp/$CONTAINER_NAME.json" "s3://$VERSIONS_BUCKET/images/$CONTAINER_NAME.json"
