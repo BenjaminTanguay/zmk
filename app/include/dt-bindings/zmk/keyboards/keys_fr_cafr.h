@@ -148,28 +148,28 @@
 
 
 // Row 1
-#define FR_BCK_SLSH     ALGR(FR_HASH)    // \
-#define FR_PLUS_MINUS   ALGR(FR_N1)      // ±
-#define FR_AT           ALGR(FR_N2)      // @
-#define FR_POUND        ALGR(FR_N3)      // £
-#define FR_CENT         ALGR(FR_N4)      // ¢
-#define FR_CURR         ALGR(FR_N5)      // ¤
-#define FR_NOT          ALGR(FR_N6)      // ¬
-#define FR_BROKEN_BAR   ALGR(FR_N7)      // ¦
-#define FR_TWO_EXP      ALGR(FR_N8)      // ²
-#define FR_THREE_EXP    ALGR(FR_N9)      // ³
-#define FR_QUART        ALGR(FR_N0)      // ¼
-#define FR_HALF         ALGR(FR_MINUS)   // ½
-#define FR_THREE_FOURTH ALGR(FR_EQUAL)   // ¾
+#define FR_BCK_SLSH     LA(FR_HASH)    // \
+#define FR_PLUS_MINUS   LA(FR_N1)      // ±
+#define FR_AT           LA(FR_N2)      // @
+#define FR_POUND        LA(FR_N3)      // £
+#define FR_CENT         LA(FR_N4)      // ¢
+#define FR_CURR         LA(FR_N5)      // ¤
+#define FR_NOT          LA(FR_N6)      // ¬
+#define FR_BROKEN_BAR   LA(FR_N7)      // ¦
+#define FR_TWO_EXP      LA(FR_N8)      // ²
+#define FR_THREE_EXP    LA(FR_N9)      // ³
+#define FR_QUART        LA(FR_N0)      // ¼
+#define FR_HALF         LA(FR_MINUS)   // ½
+#define FR_THREE_FOURTH LA(FR_EQUAL)   // ¾
 // Row 2
-#define FR_SECT         ALGR(FR_O)       // §
-#define FR_PILCROW      ALGR(FR_P)       // ¶
-#define FR_LBKT         ALGR(FR_CIRC)    // [
-#define FR_RBKT         ALGR(FR_CED)     // ]
-#define FR_RBRC         ALGR(FR_LT)      // }
+#define FR_SECT         LA(FR_O)       // §
+#define FR_PILCROW      LA(FR_P)       // ¶
+#define FR_LBKT         LA(FR_CIRC)    // [
+#define FR_RBKT         LA(FR_CED)     // ]
+#define FR_RBRC         LA(FR_LT)      // }
 // Row 3
-#define FR_TILDE        ALGR(FR_SEMI)    // ~
-#define FR_LBRC         ALGR(FR_GRAVE)   // {
+#define FR_TILDE        LA(FR_SEMI)    // ~
+#define FR_LBRC         LA(FR_GRAVE)   // {
 // Row 4
-#define FR_MU           ALGR(FR_M)       // µ
-#define FR_AIGU         ALGR(FR_E_AIGU)  // ´
+#define FR_MU           LA(FR_M)       // µ
+#define FR_AIGU         LA(FR_E_AIGU)  // ´
