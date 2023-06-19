@@ -126,7 +126,7 @@
 #define FR_GT   PIPE                // >
 // Row 3
 #define FR_COLON COLON              // :
-#define FR_GRAVE DOUBLE_QUOTE       // `
+#define FR_GRAVE DOUBLE_QUOTES      // `
 // Row 4
 #define FR_SINGLE_QUOTE LESS_THAN   // '
 // #define FR_DOT    GREATER_THAN   // .
