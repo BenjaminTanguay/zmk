@@ -148,28 +148,28 @@
 
 
 // Row 1
-#define FR_BCK_SLSH     LA(FR_HASH)    // \
-#define FR_PLUS_MINUS   LA(FR_N1)      // ±
-#define FR_AT           LA(FR_N2)      // @
-#define FR_POUND        LA(FR_N3)      // £
-#define FR_CENT         LA(FR_N4)      // ¢
-#define FR_CURR         LA(FR_N5)      // ¤
-#define FR_NOT          LA(FR_N6)      // ¬
-#define FR_BROKEN_BAR   LA(FR_N7)      // ¦
-#define FR_TWO_EXP      LA(FR_N8)      // ²
-#define FR_THREE_EXP    LA(FR_N9)      // ³
-#define FR_QUART        LA(FR_N0)      // ¼
-#define FR_HALF         LA(FR_MINUS)   // ½
-#define FR_THREE_FOURTH LA(FR_EQUAL)   // ¾
+#define FR_BCK_SLSH     RA(FR_HASH)    // \
+#define FR_PLUS_MINUS   RA(FR_N1)      // ±
+#define FR_AT           RA(FR_N2)      // @
+#define FR_POUND        RA(FR_N3)      // £
+#define FR_CENT         RA(FR_N4)      // ¢
+#define FR_CURR         RA(FR_N5)      // ¤
+#define FR_NOT          RA(FR_N6)      // ¬
+#define FR_BROKEN_BAR   RA(FR_N7)      // ¦
+#define FR_TWO_EXP      RA(FR_N8)      // ²
+#define FR_THREE_EXP    RA(FR_N9)      // ³
+#define FR_QUART        RA(FR_N0)      // ¼
+#define FR_HALF         RA(FR_MINUS)   // ½
+#define FR_THREE_FOURTH RA(FR_EQUAL)   // ¾
 // Row 2
-#define FR_SECT         LA(FR_O)       // §
-#define FR_PILCROW      LA(FR_P)       // ¶
-#define FR_LBKT         LA(FR_CIRC)    // [
-#define FR_RBKT         LA(FR_CED)     // ]
-#define FR_RBRC         LA(FR_LT)      // }
+#define FR_SECT         RA(FR_O)       // §
+#define FR_PILCROW      RA(FR_P)       // ¶
+#define FR_LBKT         RA(FR_CIRC)    // [
+#define FR_RBKT         RA(FR_CED)     // ]
+#define FR_RBRC         RA(FR_LT)      // }
 // Row 3
-#define FR_TILDE        LA(FR_SEMI)    // ~
-#define FR_LBRC         LA(FR_GRAVE)   // {
+#define FR_TILDE        RA(FR_SEMI)    // ~
+#define FR_LBRC         RA(FR_GRAVE)   // {
 // Row 4
-#define FR_MU           LA(FR_M)       // µ
-#define FR_AIGU         LA(FR_E_AIGU)  // ´
+#define FR_MU           RA(FR_M)       // µ
+#define FR_AIGU         RA(FR_E_AIGU)  // ´
