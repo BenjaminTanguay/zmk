@@ -164,12 +164,12 @@
 // Row 2
 #define FR_SECT         RA(FR_O)       // §
 #define FR_PILCROW      RA(FR_P)       // ¶
-#define FR_LBKT         RA(FR_CIRC)    // [
+#define FR_LBKT         RA(LBKT)       // [
 #define FR_RBKT         RA(FR_CED)     // ]
 #define FR_RBRC         RA(FR_LT)      // }
 // Row 3
 #define FR_TILDE        RA(FR_SEMI)    // ~
-#define FR_LBRC         RA(FR_GRAVE)   // {
+#define FR_LBRC         RA(SQT)        // {
 // Row 4
 #define FR_MU           RA(FR_M)       // µ
 #define FR_AIGU         RA(FR_E_AIGU)  // ´
