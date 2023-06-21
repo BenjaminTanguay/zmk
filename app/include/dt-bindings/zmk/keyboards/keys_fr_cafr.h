@@ -166,7 +166,7 @@
 #define FR_PILCROW      RA(FR_P)       // ¶
 #define FR_LBKT         RA(LBKT)       // [
 #define FR_RBKT         RA(FR_CED)     // ]
-#define FR_RBRC         RA(FR_LT)      // }
+#define FR_RBRC         RA(BACKSLASH)  // }
 // Row 3
 #define FR_TILDE        RA(FR_SEMI)    // ~
 #define FR_LBRC         RA(SQT)        // {
